@@ -5,6 +5,7 @@
   "dependencies": {
     "@fluentui/react": "^8.20.0",
     "@fluentui/theme-samples": "^8.1.26",
+    "@preact/signals-react": "^2.0.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -45,6 +46,7 @@
   "homepage": "http://tcr-hydraulicsdashboard",
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
-    "path-browserify": "^1.0.1"
+    "path-browserify": "^1.0.1",
+    "vite": "^5.0.10"
   }
 }

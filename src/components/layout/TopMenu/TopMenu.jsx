@@ -2,7 +2,7 @@ import React from 'react';
 import { Stack, styled, classNamesFunction, Image, ImageFit } from '@fluentui/react';
 import { ThemeToggle } from '~/global/themes';
 import { UserMenu } from './UserMenu';
-import logo from "~/Taco_Hydraulics_Horizontal_Logo.png";
+import logo from "~/Logo.png";
 
 const getStyles = ({ theme }) => {
   return {

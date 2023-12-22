@@ -1,5 +1,5 @@
 {
-  "name": "fluentui-starter",
+  "name": "hydraulicsdashboard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -44,7 +44,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://simmy.tech/fluentui-starter",
+  "homepage": "http://tcr-hydraulicsdashboard",
   "devDependencies": {
     "path-browserify": "^1.0.1"
   }

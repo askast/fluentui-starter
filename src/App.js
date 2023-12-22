@@ -66,7 +66,7 @@ function App({ theme }) {
   const flatRouteComponents = flattenDeep(routeComponents);
 
   return (
-    <Router basename="/fluentui-starter">
+    <Router basename="/hydraulicsdashboard">
       <AutoSwitchLayout>
         <Suspense fallback={<ProgressIndicator label="Page loading..." />}>
           <Switch>

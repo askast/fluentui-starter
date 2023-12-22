@@ -1,7 +1,8 @@
 import React from 'react';
-import { Stack, styled, classNamesFunction } from '@fluentui/react';
+import { Stack, styled, classNamesFunction, Image, ImageFit } from '@fluentui/react';
 import { ThemeToggle } from 'global/themes';
 import { UserMenu } from './UserMenu';
+import logo from "../../../Taco_Hydraulics_Horizontal_Logo.png";
 
 const getStyles = ({ theme }) => {
   return {
@@ -22,11 +23,11 @@ function TopMenuComponent({ styles, theme }) {
   return (
     <Stack
       horizontal
-      horizontalAlign="end"
       className={classNames.root}
       tokens={{ childrenGap: '1em' }}>
-      <UserMenu />
-      <ThemeToggle />
+      <Stack.Item align="center" grow><Image imageFit={ImageFit.contain} src={logo} height={60}/></Stack.Item>
+      <Stack.Item align="center"><UserMenu /></Stack.Item>
+      <Stack.Item align="center"><ThemeToggle /></Stack.Item>
     </Stack>
   );
 }

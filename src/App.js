@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { ProgressIndicator, styled } from "@fluentui/react";
 import { get, isArray, isNil, flattenDeep } from "lodash";
-import path from "path";
+import path from "path-browserify";
 import { AutoSwitchLayout } from "./components/layout";
 import {
   AuthorizedRoute,

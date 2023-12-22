@@ -26,6 +26,7 @@ function TopMenuComponent({ styles, theme }) {
       className={classNames.root}
       tokens={{ childrenGap: '1em' }}>
       <Stack.Item align="center" grow><Image imageFit={ImageFit.contain} src={logo} height={60}/></Stack.Item>
+      {/* <Stack.Item align="center" grow><div></div></Stack.Item>   */}
       <Stack.Item align="center"><UserMenu /></Stack.Item>
       <Stack.Item align="center"><ThemeToggle /></Stack.Item>
     </Stack>

@@ -16,10 +16,10 @@ export function getStyles(
 
   const navFontSize = fonts.medium.fontSize;
   const navTextColor = semanticColors.menuItemText;
-  const navWidth = 280;
+  const navWidth = 200;
   const navCollapsedWidth = 48;
   const shortenedIconWidth = 32;
-  const navFloatingWidth = 230;
+  const navFloatingWidth = 150;
   const navItemHeight = 48;
   const navChildItemHeight = 32;
   const navBackgroundColor = semanticColors.menuBackground;

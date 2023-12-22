@@ -13,8 +13,8 @@ import {
 import { get } from "lodash";
 import { Controller, useForm } from "react-hook-form";
 import { useHistory, useLocation } from "react-router-dom";
-import { ThemeToggle } from "global/themes";
-import { useAuthentication } from "global/authentication";
+import { ThemeToggle } from "~/global/themes";
+import { useAuthentication } from "~/global/authentication";
 
 const demoUsers = [
   {

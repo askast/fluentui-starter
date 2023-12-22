@@ -5,6 +5,7 @@
   "dependencies": {
     "@fluentui/react": "^8.20.0",
     "@fluentui/theme-samples": "^8.1.26",
+    "@preact/signals-react": "^2.0.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -14,17 +15,15 @@
     "react-dom": "^17.0.2",
     "react-hook-form": "^7.9.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "^5.0.1",
     "react-use": "^17.2.4",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "eslintConfig": {
     "extends": [
@@ -46,6 +45,8 @@
   },
   "homepage": "http://tcr-hydraulicsdashboard",
   "devDependencies": {
-    "path-browserify": "^1.0.1"
+    "@vitejs/plugin-react": "^4.2.1",
+    "path-browserify": "^1.0.1",
+    "vite": "^5.0.10"
   }
 }

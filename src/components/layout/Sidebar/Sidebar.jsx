@@ -2,8 +2,8 @@ import React from "react";
 import { isArray } from "lodash";
 import { useHistory, useLocation, matchPath } from "react-router-dom";
 import { NavToggler } from "./Nav";
-import { findNode, getParents } from "global/hierarchical";
-import routes from "routes";
+import { findNode, getParents } from "~/global/hierarchical";
+import routes from "~/routes";
 
 function findRoute(pathname) {
   const current = findNode(routes, (route) => {

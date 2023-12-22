@@ -1,5 +1,5 @@
 import React from "react";
-import { useAuthentication } from "global/authentication";
+import { useAuthentication } from "~/global/authentication";
 import { MasterLayout } from "./MasterLayout";
 import { BlankLayout } from "./BlankLayout";
 

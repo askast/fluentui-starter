@@ -1,5 +1,5 @@
 {
-  "name": "hydraulicsdashboard",
+  "name": "fluentui-starter",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,7 +43,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "http://tcr-hydraulicsdashboard",
+  "homepage": "http://fluentui-starter",
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
     "path-browserify": "^1.0.1",
